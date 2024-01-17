@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quien es ese pokemon?</title>
+        <script async defer src='./main.js'></script>
+        <script async defer src='./fetch.js'></script>
+        <link rel='stylesheet' href='./styles.css'>
+    </head>
+    <body>
+        
+
+        <div id="pokemon-card">
+            <h2>Pokemon Card</h2>
+            <p id="pokemon-name"></p>
+            <img id="pokemon-image" alt="Pokemon Image">
+          </div>
+
+        <div class='container'>
+            <div class='card--container'>
+            </div>
+
+            <div class="container row">
+                <label for="poke-name">Pokemon (Name / ID)</label>
+                <input id='poke-name' type="text" name="poke-name" value="">
+            </div>
+            <div class='container row'>
+               <button id='previous-btn' class='btn primary'>Anterior</button> 
+               <button id='get-btn' class='btn primary'>Buscar Pokemon</button> 
+               <button id='next-btn' class='btn primary'>Siguiente</button> 
+            </div>
+        </div>
+    </body>
+</html>
