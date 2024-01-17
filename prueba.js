@@ -8,7 +8,7 @@ f().then((res) => console.log(res));
 f().then(function(res) { console.log(res) })
 */
 
-async function f(){
+/*async function f(){
     let promise = new Promise((resolve, reject) =>{ 
         setTimeout(() => resolve('done'), 3000)
     })
